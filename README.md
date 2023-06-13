@@ -1,4 +1,4 @@
-# Phishing para captura de senhas do Facebook
+# Phishing para captura de senhas da Kabum
 
 ### Ferramentas
 
@@ -14,8 +14,13 @@
 - Método de ataque: ```Credential Harvester Attack Method ```
 - Método de ataque: ``` Site Cloner ```
 - Obtendo o endereço da máquina: ``` ifconfig ```
-- URL para clone: http://www.facebook.com
+- URL para clone: https://www.kabum.com.br/login?
 
 ### Resutados
 
-![Alt text](./passwd.png "Optional title")
+192.168.0.175 - - [13/Jun/2023 12:51:53] "GET / HTTP/1.1" 200 -
+192.168.0.175 - - [13/Jun/2023 12:51:55] "GET /api/account/recaptcha HTTP/1.1" 404 -
+[*] WE GOT A HIT! Printing the output:
+POSSIBLE USERNAME FIELD FOUND: {"login":"test@gmail.com.br","password":"Testando@123"}                             
+POSSIBLE PASSWORD FIELD FOUND: {"login":"test@gmail.com.br","password":"Testando@123"}                                                                                 
+                                                                                              
